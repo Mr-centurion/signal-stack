@@ -7,7 +7,7 @@ Signal Stack turns a company name and website into a continuously monitored inte
 **Design rule:** nothing is hard-coded per company or industry. Competitors, sources, interview questions and briefs are all generated per company, and every reported development carries a source link, a discovery date and a verbatim snippet. If nothing happened in a category, the brief says so.
 
 - Live URL: not deployed. This is a documented local setup, which the assignment allows. `[UPDATE if you deploy]`
-- Repository: `[REPO_URL]`
+- Repository: https://github.com/Mr-centurion/signal-stack
 - Demo video: `[DEMO_URL]`
 
 ## Contents
@@ -27,7 +27,7 @@ Signal Stack turns a company name and website into a continuously monitored inte
 Requirements: Python 3.11 or newer (developed and tested on Python 3.13) and at least one free LLM key (Gemini or Groq).
 
 ```bash
-git clone [REPO_URL]
+git clone https://github.com/Mr-centurion/signal-stack.git
 cd signal-stack
 
 python3 -m venv .venv
