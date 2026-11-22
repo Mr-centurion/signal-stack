@@ -1,0 +1,89 @@
+{
+  "company": "Sweetgreen",
+  "domain": "sweetgreen.com",
+  "industry": "Fast-Casual Organic Restaurant Chain & Culinary Tech",
+  "provider": "gemini",
+  "questions_count": 10,
+  "questions": [
+    {
+      "index": 1,
+      "topic": "revenue_lines",
+      "topic_title": "Revenue Lines & Monetization",
+      "category": "internal",
+      "question": "What is the current breakdown of revenue contribution between digital app ordering and in-store purchases at Sweetgreen, and how are you looking to optimize unit economics across both channels?",
+      "rationale": "Understanding the mix between digital and in-store revenue streams is vital for evaluating monetization efficiency and unit economics without violating competitor constraints."
+    },
+    {
+      "index": 2,
+      "topic": "top_customer_segments",
+      "topic_title": "Target Customer Segments",
+      "category": "customers",
+      "question": "Which specific demographic or lifestyle cohorts are driving the highest lifetime value and frequency for Sweetgreen locations right now?",
+      "rationale": "Uncovers the highest-value user segments and ideal buyer personas to focus marketing and operational strategies."
+    },
+    {
+      "index": 3,
+      "topic": "customer_problems",
+      "topic_title": "Customer Problems & Friction",
+      "category": "customers",
+      "question": "Where are the primary operational bottlenecks causing order delays or friction for customers during peak lunch hours at Sweetgreen?",
+      "rationale": "Focuses strictly on operational bottlenecks and customer friction points during high-demand periods without referencing competitors."
+    },
+    {
+      "index": 4,
+      "topic": "why_customers_choose_us",
+      "topic_title": "Value Proposition & Win Factors",
+      "category": "customers",
+      "question": "Beyond convenience and fresh ingredients, what specific culinary or brand attribute is the primary reason customers consistently choose Sweetgreen over alternative dining options?",
+      "rationale": "Uncovers the core defensible differentiator and primary win factors driving customer selection from leadership's perspective."
+    },
+    {
+      "index": 5,
+      "topic": "competitors_substitutes",
+      "topic_title": "Competitors & Alternatives",
+      "category": "competitors",
+      "question": "When customers choose an alternative fast-casual option over Sweetgreen, which specific competing brands or substitutes are you losing ground to most frequently?",
+      "rationale": "Uncovers direct competitors and emerging substitutes captured in lost customer consideration cycles."
+    },
+    {
+      "index": 6,
+      "topic": "market_shifts",
+      "topic_title": "Market Shifts & Macro Trends",
+      "category": "market",
+      "question": "How are rising labor costs and shifting supply chain dynamics forcing Sweetgreen to adapt its operating model over the next few years?",
+      "rationale": "Explores macro trends impacting restaurant operations and cost structures without mentioning competitors."
+    },
+    {
+      "index": 7,
+      "topic": "material_developments",
+      "topic_title": "Recent Material Developments",
+      "category": "internal",
+      "question": "What has been the most operationally transformative partnership or product release for Sweetgreen over the past six months, and what measurable impact has it delivered so far?",
+      "rationale": "Uncovers recent strategic milestones and operational wins without violating competitor or cross-topic constraints."
+    },
+    {
+      "index": 8,
+      "topic": "priorities_6_12_months",
+      "topic_title": "6-12 Month Strategic Priorities",
+      "category": "internal",
+      "question": "What are the two or three primary operational targets Sweetgreen is prioritizing over the next year to scale its footprint effectively?",
+      "rationale": "Focuses strictly on the leadership's top strategic initiatives and growth bets for the upcoming 6-12 month horizon without violating any constraints."
+    },
+    {
+      "index": 9,
+      "topic": "internal_data",
+      "topic_title": "Internal Health Metrics",
+      "category": "internal",
+      "question": "Which specific operational telemetry and weekly retention indicators are most critical for tracking unit-level performance across Sweetgreen locations?",
+      "rationale": "Focuses executive inquiry directly on internal health metrics, operational telemetry, and weekly retention indicators without referencing competitors or violating constraints."
+    },
+    {
+      "index": 10,
+      "topic": "decisions_to_support",
+      "topic_title": "Decisions System Must Support",
+      "category": "internal",
+      "question": "What critical operational or menu pricing decisions do you need this intelligence platform to drive for Sweetgreen over the next year?",
+      "rationale": "Focuses executive leadership on defining the high-stakes strategic decisions the system must support without violating constraints or mentioning competitors."
+    }
+  ]
+}

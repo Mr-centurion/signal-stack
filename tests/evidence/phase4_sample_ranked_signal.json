@@ -1,0 +1,35 @@
+{
+  "signal_id": 49,
+  "headline": "UK and EU agree to a 200,000-place youth mobility and study scheme.",
+  "category": "market",
+  "event_type": "market_data",
+  "verification_status": "single_source",
+  "scores": {
+    "priority_score": 0.8,
+    "source_reliability": 0.92,
+    "evidence_strength": 0.6,
+    "strategic_relevance": 0.85,
+    "impact": "medium",
+    "urgency": "this_quarter",
+    "direction": "opportunity"
+  },
+  "why_important_breakdown": "High strategic relevance to company operations (Anchored: Global operations focusing on international student mobility.) [0.85] &bull; This quarter leadership attention required &bull; Authoritative source credibility (Thepienews [0.92])",
+  "separation_of_evidence": {
+    "what_happened": "The UK and EU agreed to a landmark youth mobility scheme providing 200,000 total places for young people to live, work, and study across borders.",
+    "when_published": "2026-11-20",
+    "publisher_name": "Thepienews",
+    "publisher_url": "https://thepienews.com/200k-uk-eu-youth-mobility-places-agreed-as-tuition-fee-decision-delayed",
+    "verbatim_body_snippet": "The UK and EU have agreed a landmark youth mobility scheme allowing 100,000 young people from each side to live, work and study across borders"
+  },
+  "separation_of_interpretation": {
+    "why_it_matters": "Relates to Profile Fact: Global operations focusing on international student mobility, because a major structural opening of 200,000 mobility places between the UK and EU directly impacts student flow volumes, recruitment patterns, and advisory opportunities for study abroad platforms.",
+    "referenced_profile_fact": "Global operations focusing on international student mobility.",
+    "business_area": "Student Acquisition",
+    "what_to_consider": "Leadership should immediately evaluate marketing and counseling service packages tailored to capture the surge in student demand driven by the new UK-EU mobility scheme."
+  },
+  "recency": {
+    "published_date": "2026-11-20T15:40:47",
+    "age_days": 0,
+    "is_background_flag": false
+  }
+}

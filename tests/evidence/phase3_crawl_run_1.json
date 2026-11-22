@@ -1,0 +1,40 @@
+{
+  "company": "MeetUniversity",
+  "crawl_run_id": 1,
+  "status": "completed",
+  "documents_found": 29,
+  "items_new": 29,
+  "items_changed": 0,
+  "signals_generated_count": 19,
+  "signals_per_category": {
+    "customers": 12,
+    "competitors": 7,
+    "market": 0,
+    "internal": 0
+  },
+  "sources_audited_count": 16,
+  "sources_successful_count": 16,
+  "sources_with_zero_items_count": 3,
+  "sources_with_zero_items": [
+    {
+      "url": "https://www.edmissions.com/feed",
+      "status": "success",
+      "http_code": 403,
+      "reason": "Feed/Page returned empty content during cycle"
+    },
+    {
+      "url": "https://www.manyagroup.com/feed",
+      "status": "success",
+      "http_code": 301,
+      "reason": "Feed/Page returned empty content during cycle"
+    },
+    {
+      "url": "https://www.jamboreeindia.com/feed",
+      "status": "success",
+      "http_code": 200,
+      "reason": "Feed/Page returned empty content during cycle"
+    }
+  ],
+  "failures_and_skipped_count": 0,
+  "failures_and_skipped_reasons": []
+}

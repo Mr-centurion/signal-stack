@@ -1,0 +1,90 @@
+{
+  "is_test_mode": true,
+  "business_lines": [
+    {
+      "text": "[TEST MODE] International Higher Education Admissions & Guidance",
+      "status": "assumption",
+      "source_url": "https://www.meetuniversity.com",
+      "evidence_snippet": null,
+      "validation_note": "Downgraded: quote snippet not present verbatim in company site pages"
+    },
+    {
+      "text": "[TEST MODE] University Lead Generation & Student Recruitment",
+      "status": "assumption",
+      "source_url": "https://www.meetuniversity.com",
+      "evidence_snippet": null,
+      "validation_note": "Downgraded: quote snippet not present verbatim in company site pages"
+    }
+  ],
+  "products_services": [
+    {
+      "text": "[TEST MODE] University Search & Course Discovery Engine",
+      "status": "assumption",
+      "source_url": "https://www.meetuniversity.com",
+      "evidence_snippet": null,
+      "validation_note": "Downgraded: quote snippet not present verbatim in company site pages"
+    },
+    {
+      "text": "[TEST MODE] Student Counseling & Visa Guidance",
+      "status": "assumption",
+      "source_url": "https://www.meetuniversity.com",
+      "evidence_snippet": ""
+    }
+  ],
+  "customer_segments": [
+    {
+      "text": "[TEST MODE] Prospective Undergraduate and Postgraduate Study Abroad Applicants",
+      "status": "assumption",
+      "source_url": "https://www.meetuniversity.com",
+      "evidence_snippet": null,
+      "validation_note": "Downgraded: quote snippet not present verbatim in company site pages"
+    },
+    {
+      "text": "[TEST MODE] Global Universities Seeking Indian and South Asian Applicants",
+      "status": "assumption",
+      "source_url": "https://www.meetuniversity.com",
+      "evidence_snippet": ""
+    }
+  ],
+  "positioning": {
+    "text": "[TEST MODE] AI-enabled discovery and admissions platform linking international universities with aspiring overseas students.",
+    "status": "assumption",
+    "source_url": "https://www.meetuniversity.com",
+    "evidence_snippet": null,
+    "validation_note": "Downgraded: quote snippet not present verbatim in company site pages"
+  },
+  "geography": {
+    "text": "[TEST MODE] Primary applicant base in India/South Asia; target institutions in US, UK, Canada, Australia, and Europe.",
+    "status": "assumption",
+    "source_url": "https://www.meetuniversity.com",
+    "evidence_snippet": ""
+  },
+  "revenue_model": {
+    "text": "[TEST MODE] University recruitment commissions, student premium counseling, and institutional marketing subscriptions.",
+    "status": "assumption",
+    "source_url": "https://www.meetuniversity.com",
+    "evidence_snippet": ""
+  },
+  "likely_competitors": [
+    {
+      "name": "[TEST MODE] Leverage Edu",
+      "rationale": "High-growth Indian study abroad counseling and admissions platform",
+      "status": "assumption"
+    },
+    {
+      "name": "[TEST MODE] Leap Scholar",
+      "rationale": "End-to-end global education test prep and admissions provider",
+      "status": "assumption"
+    },
+    {
+      "name": "[TEST MODE] Yocket",
+      "rationale": "Community-driven study abroad admission guidance platform",
+      "status": "assumption"
+    },
+    {
+      "name": "[TEST MODE] Shiksha Study Abroad",
+      "rationale": "Legacy college search and university aggregation portal",
+      "status": "assumption"
+    }
+  ]
+}

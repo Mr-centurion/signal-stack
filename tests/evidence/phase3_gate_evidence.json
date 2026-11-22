@@ -1,0 +1,34 @@
+{
+  "company": "MeetUniversity",
+  "crawl_run_id": 57,
+  "signals_per_category": {
+    "customers": 0,
+    "competitors": 0,
+    "market": 0,
+    "internal": 0
+  },
+  "gate_dropped_count": 3,
+  "gate_dropped_breakdown": [
+    {
+      "title": "College Confidential Forums - Admissions Discussions and Threads (Updated)",
+      "headline": "[TEST MODE] IDP Education expands advisory programs for international students",
+      "reason": "Labeled 'product_launch' but text contains no launch, announcement, or release verb; describes static service capability."
+    },
+    {
+      "title": "IDP Launches IELTS Testing in China, A Game-Changer in the English Proficiency Market - PW",
+      "headline": "[TEST MODE] IDP Education expands advisory programs for international students",
+      "reason": "Verbatim quote failed programmatic verification against fetched document text."
+    },
+    {
+      "title": "IDP Education Pakistan Expands Footprint with New Offices Launched in Faisalabad & Gujrat - ProPakistani",
+      "headline": "[TEST MODE] IDP Education expands advisory programs for international students",
+      "reason": "Verbatim quote failed programmatic verification against fetched document text."
+    }
+  ],
+  "sample_signals": [],
+  "customer_voice_assessment": {
+    "signal_count": 0,
+    "status": "thin",
+    "explanation": "Customer signals strictly limited to genuine third-party public forums and reviews. Testimonials on competitor homepages (e.g. ApplyBoard student testimonials) are now strictly excluded by the customer voice guard. In the absence of live Reddit credentials and with major consumer review portals (ConsumerAffairs, Trustpilot) imposing Cloudflare WAF 403 blocks, available organic customer signals from public open forums remain sparse without data fabrication."
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "company": "MeetUniversity",
+  "domain": "meetuniversity.com",
+  "industry": "EdTech & Study Abroad Admissions Portal",
+  "provider": "gemini",
+  "questions_count": 10,
+  "questions": [
+    {
+      "index": 1,
+      "topic": "revenue_lines",
+      "topic_title": "Revenue Lines & Monetization",
+      "category": "internal",
+      "question": "How does MeetUniversity currently balance commission-based university partnerships with direct student-paid advisory fees to drive overall revenue?",
+      "rationale": "This question directly probes the core monetization streams and pricing mechanics of the business without referencing any competitors or violating constraints."
+    },
+    {
+      "index": 2,
+      "topic": "top_customer_segments",
+      "topic_title": "Target Customer Segments",
+      "category": "customers",
+      "question": "Which specific student demographics within your core market yield the highest conversion rates and long-term value for MeetUniversity?",
+      "rationale": "Uncovers the highest-value user profiles and ideal buyer personas to optimize acquisition efforts."
+    },
+    {
+      "index": 3,
+      "topic": "customer_problems",
+      "topic_title": "Customer Problems & Friction",
+      "category": "customers",
+      "question": "What is the primary friction point students encounter during the admissions workflow on MeetUniversity that most often threatens to derail their study abroad journey?",
+      "rationale": "Uncovering the primary operational bottlenecks and user pain points helps identify critical product gaps and areas where student friction impacts conversion and satisfaction."
+    },
+    {
+      "index": 4,
+      "topic": "why_customers_choose_us",
+      "topic_title": "Value Proposition & Win Factors",
+      "category": "customers",
+      "question": "What is the single most decisive factor that convinces students to choose MeetUniversity over alternative advisory channels?",
+      "rationale": "Uncovers the core differentiator and defensible win factor driving customer selection without mentioning competitors or violating constraints."
+    },
+    {
+      "index": 5,
+      "topic": "competitors_substitutes",
+      "topic_title": "Competitors & Alternatives",
+      "category": "competitors",
+      "question": "When prospective students decide against enrolling with MeetUniversity, which alternative agencies or digital platforms are most frequently winning those deals?",
+      "rationale": "Uncovers the direct competitors and substitute channels that capture lost student opportunities."
+    },
+    {
+      "index": 6,
+      "topic": "market_shifts",
+      "topic_title": "Market Shifts & Macro Trends",
+      "category": "market",
+      "question": "How are tightening visa regulations in key destination countries altering student demand patterns across MeetUniversity's core recruitment channels?",
+      "rationale": "Explores how evolving macroeconomic and regulatory pressures impact the company's core market without mentioning competitors."
+    },
+    {
+      "index": 7,
+      "topic": "material_developments",
+      "topic_title": "Recent Material Developments",
+      "category": "internal",
+      "question": "Which recent product enhancement or strategic partnership has had the most significant impact on MeetUniversity's operational scale over the past six months?",
+      "rationale": "Focuses strictly on recent material developments and milestones without violating any constraints."
+    },
+    {
+      "index": 8,
+      "topic": "priorities_6_12_months",
+      "topic_title": "6-12 Month Strategic Priorities",
+      "category": "internal",
+      "question": "Which two or three growth bets will anchor MeetUniversity's operational focus over the next year to accelerate student acquisition?",
+      "rationale": "Directly probes the leadership on their core near-term strategic initiatives and growth targets without violating constraints."
+    },
+    {
+      "index": 9,
+      "topic": "internal_data",
+      "topic_title": "Internal Health Metrics",
+      "category": "internal",
+      "question": "Which specific leading indicators do you review weekly to gauge the health of the student pipeline at MeetUniversity?",
+      "rationale": "Focuses on operational telemetry and key health metrics monitored regularly by leadership."
+    },
+    {
+      "index": 10,
+      "topic": "decisions_to_support",
+      "topic_title": "Decisions System Must Support",
+      "category": "internal",
+      "question": "Which upcoming strategic pivots require MeetUniversity to rely most heavily on real-time data insights over the next year?",
+      "rationale": "Focuses executive attention on identifying the highest-stakes strategic decisions that data infrastructure must prioritize supporting."
+    }
+  ]
+}

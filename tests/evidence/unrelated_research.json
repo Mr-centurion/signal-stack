@@ -1,0 +1,66 @@
+{
+  "is_test_mode": true,
+  "business_lines": [
+    {
+      "text": "[TEST MODE] Enterprise Developer Tools & Backend Cloud Infrastructure",
+      "status": "assumption",
+      "source_url": "https://example.com",
+      "evidence_snippet": null,
+      "validation_note": "Downgraded: quote snippet not present verbatim in company site pages"
+    },
+    {
+      "text": "[TEST MODE] Managed Database & Storage Services",
+      "status": "assumption",
+      "source_url": "https://example.com",
+      "evidence_snippet": ""
+    }
+  ],
+  "products_services": [
+    {
+      "text": "[TEST MODE] High-throughput API gateway & realtime database engine",
+      "status": "assumption",
+      "source_url": "https://example.com",
+      "evidence_snippet": null,
+      "validation_note": "Downgraded: quote snippet not present verbatim in company site pages"
+    }
+  ],
+  "customer_segments": [
+    {
+      "text": "[TEST MODE] Mid-market SaaS CTOs and Staff Platform Engineers",
+      "status": "assumption",
+      "source_url": "https://example.com",
+      "evidence_snippet": ""
+    }
+  ],
+  "positioning": {
+    "text": "[TEST MODE] Zero-ops backend infrastructure platform for cloud-native engineering organizations.",
+    "status": "assumption",
+    "source_url": "https://example.com",
+    "evidence_snippet": null,
+    "validation_note": "Downgraded: quote snippet not present verbatim in company site pages"
+  },
+  "geography": {
+    "text": "[TEST MODE] Global, predominantly North America and EMEA.",
+    "status": "assumption",
+    "source_url": "https://example.com",
+    "evidence_snippet": ""
+  },
+  "revenue_model": {
+    "text": "[TEST MODE] Usage-based monthly compute and enterprise team seat tiers.",
+    "status": "assumption",
+    "source_url": "https://example.com",
+    "evidence_snippet": ""
+  },
+  "likely_competitors": [
+    {
+      "name": "[TEST MODE] PlanetScale",
+      "rationale": "Managed database platform",
+      "status": "assumption"
+    },
+    {
+      "name": "[TEST MODE] Neon",
+      "rationale": "Serverless Postgres platform",
+      "status": "assumption"
+    }
+  ]
+}

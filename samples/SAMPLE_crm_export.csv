@@ -1,0 +1,25 @@
+record_id,date,stage,outcome,reason_or_objection,notes,destination_interest,data_origin
+L-001,2026-09-03,counselling call,lost,fees too high,Said the package cost more than a competitor quote,UK,SAMPLE - fictional demo data
+L-002,2026-09-05,counselling call,lost,competitor offered refund guarantee,Compared with another counselling firm that promised a refund,Canada,SAMPLE - fictional demo data
+L-003,2026-09-08,application support,won,,Signed up after SOP review,Germany,SAMPLE - fictional demo data
+L-004,2026-09-10,counselling call,lost,worried about visa rejection,Asked for visa success rates we could not share,Australia,SAMPLE - fictional demo data
+L-005,2026-09-12,first enquiry,lost,slow response from counsellor,Waited three days for a callback,USA,SAMPLE - fictional demo data
+L-006,2026-09-15,counselling call,lost,wanted Germany and Europe options,Our shortlist focused on English-speaking countries,Germany,SAMPLE - fictional demo data
+L-007,2026-09-17,application support,won,,Referred by a friend,UK,SAMPLE - fictional demo data
+L-008,2026-09-19,counselling call,lost,fees too high,Parents objected to upfront payment,USA,SAMPLE - fictional demo data
+L-009,2026-09-22,counselling call,lost,hidden fees concern,Asked for a full fee breakdown before deciding,Canada,SAMPLE - fictional demo data
+L-010,2026-09-24,first enquiry,lost,slow response from counsellor,No reply to the second message,Australia,SAMPLE - fictional demo data
+L-011,2026-09-26,counselling call,lost,parents wanted an in-person office,No office in their city,UK,SAMPLE - fictional demo data
+L-012,2026-09-29,application support,won,,Chose the premium test-prep bundle,USA,SAMPLE - fictional demo data
+L-013,2026-10-02,counselling call,lost,competitor offered refund guarantee,Said another firm refunds if no offer letter,Canada,SAMPLE - fictional demo data
+L-014,2026-10-04,counselling call,lost,worried about visa rejection,Previous visa refusal in the family,UK,SAMPLE - fictional demo data
+L-015,2026-10-07,first enquiry,lost,applied directly to the university,Decided to skip a counsellor,Germany,SAMPLE - fictional demo data
+L-016,2026-10-09,counselling call,lost,fees too high,Wanted a milestone-based payment plan,Australia,SAMPLE - fictional demo data
+L-017,2026-10-13,application support,won,,Scholarship guidance was the deciding factor,Germany,SAMPLE - fictional demo data
+L-018,2026-10-15,counselling call,lost,slow response from counsellor,Missed two scheduled calls,USA,SAMPLE - fictional demo data
+L-019,2026-10-18,counselling call,lost,wanted Germany and Europe options,Asked about tuition-free universities,Germany,SAMPLE - fictional demo data
+L-020,2026-10-21,counselling call,lost,competitor offered refund guarantee,Compared refund terms side by side,UK,SAMPLE - fictional demo data
+L-021,2026-10-23,first enquiry,lost,applied directly to the university,Used the university website instead,Canada,SAMPLE - fictional demo data
+L-022,2026-10-27,application support,won,,Needed SOP and LOR help,UK,SAMPLE - fictional demo data
+L-023,2026-10-30,counselling call,lost,hidden fees concern,Asked whether visa support was extra,Australia,SAMPLE - fictional demo data
+L-024,2026-11-03,counselling call,lost,worried about visa rejection,Wanted a guarantee we cannot give,USA,SAMPLE - fictional demo data

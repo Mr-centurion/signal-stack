@@ -1,0 +1,184 @@
+{
+  "timestamp": "2026-11-21T11:23:00.694655+00:00",
+  "companies_audited": [
+    "MeetUniversity",
+    "Sweetgreen",
+    "PostHog"
+  ],
+  "total_collected_signals_across_all": 135,
+  "total_evidence_backed_signals": 135,
+  "competitor_overlap_percentage": 0.0,
+  "company_breakdown": {
+    "MeetUniversity": {
+      "company_id": 1,
+      "industry": "EdTech & Study Abroad Admissions Portal",
+      "website": "https://www.meetuniversity.com",
+      "interview_questions_count": 10,
+      "interview_status": "Human Input Provided (0 real, 10 test fixtures)",
+      "competitors_count": 10,
+      "competitors_names": [
+        "IDP Education",
+        "KC Overseas Education",
+        "LeapScholar",
+        "Edwise International",
+        "ApplyBoard",
+        "Yocket",
+        "Canam Consultants",
+        "Edvoy",
+        "Leap Scholar",
+        "GradRight"
+      ],
+      "sources_total": 53,
+      "sources_by_category": {
+        "customers": 15,
+        "competitors": 29,
+        "market": 6,
+        "internal": 3
+      },
+      "distinct_source_domains_count": 23,
+      "source_domains": [
+        "shanghairanking.com",
+        "coursera.org",
+        "edwiseinternational.com",
+        "timeshighereducation.com",
+        "talk.collegeconfidential.com",
+        "gov.uk",
+        "applyboard.com",
+        "news.google.com",
+        "studies-overseas.com",
+        "icef.com",
+        "forbesindia.com",
+        "sitejabber.com",
+        "idp.com",
+        "prodigyfinance.com",
+        "meetuniversity.com",
+        "mantrahealth.com",
+        "manyagroup.com",
+        "studyinternational.com",
+        "yocket.com",
+        "itunes.apple.com",
+        "edvoy.com",
+        "thepienews.com",
+        "nats.org"
+      ],
+      "signals_total": 57,
+      "signals_by_category": {
+        "market": 16,
+        "competitors": 13,
+        "customers": 28
+      },
+      "evidence_backed_signals": 57,
+      "brief_id": 13,
+      "brief_week_label": "Week 47, 2026"
+    },
+    "PostHog": {
+      "company_id": 3,
+      "industry": "Developer Tools & Open-Source Product Analytics",
+      "website": "https://posthog.com",
+      "interview_questions_count": 0,
+      "interview_status": "No founder input provided (Profile facts only)",
+      "competitors_count": 10,
+      "competitors_names": [
+        "Mixpanel",
+        "Amplitude",
+        "Heap",
+        "Pendo",
+        "Hotjar",
+        "LogRocket",
+        "FullStory",
+        "Datadog",
+        "Statsig",
+        "Split.io"
+      ],
+      "sources_total": 38,
+      "sources_by_category": {
+        "customers": 15,
+        "competitors": 15,
+        "internal": 3,
+        "market": 5
+      },
+      "distinct_source_domains_count": 16,
+      "source_domains": [
+        "techcrunch.com",
+        "news.google.com",
+        "github.blog",
+        "stackoverflow.blog",
+        "heap.io",
+        "contentsquare.com",
+        "posthog.com",
+        "feed.infoq.com",
+        "fullstory.com",
+        "amplitude.com",
+        "pendo.io",
+        "news.ycombinator.com",
+        "sitejabber.com",
+        "itunes.apple.com",
+        "mixpanel.com",
+        "datadoghq.com"
+      ],
+      "signals_total": 47,
+      "signals_by_category": {
+        "competitors": 41,
+        "internal": 4,
+        "market": 1,
+        "customers": 1
+      },
+      "evidence_backed_signals": 47,
+      "brief_id": 12,
+      "brief_week_label": "Week 47, 2026"
+    },
+    "Sweetgreen": {
+      "company_id": 2,
+      "industry": "Fast-Casual Organic Restaurant Chain & Culinary Tech",
+      "website": "https://www.sweetgreen.com",
+      "interview_questions_count": 0,
+      "interview_status": "No founder input provided (Profile facts only)",
+      "competitors_count": 9,
+      "competitors_names": [
+        "Chipotle Mexican Grill",
+        "Dig",
+        "Just Salad",
+        "Chopt Creative Salad Co.",
+        "Panera Bread",
+        "corelife eatery",
+        "Freshii",
+        "Daily Harvest",
+        "SweetLife (Prepared Meal Delivery)"
+      ],
+      "sources_total": 26,
+      "sources_by_category": {
+        "competitors": 12,
+        "market": 4,
+        "internal": 1,
+        "customers": 9
+      },
+      "distinct_source_domains_count": 14,
+      "source_domains": [
+        "news.google.com",
+        "restaurantdive.com",
+        "corelifeeatery.com",
+        "freshii.com",
+        "diginn.com",
+        "fastcasual.com",
+        "panerabread.com",
+        "fda.gov",
+        "sweetgreen.com",
+        "choptsalad.com",
+        "modernrestaurantmanagement.com",
+        "chipotle.com",
+        "itunes.apple.com",
+        "daily-harvest.com"
+      ],
+      "signals_total": 31,
+      "signals_by_category": {
+        "competitors": 20,
+        "internal": 1,
+        "market": 2,
+        "customers": 8
+      },
+      "evidence_backed_signals": 31,
+      "brief_id": 11,
+      "brief_week_label": "Week 47, 2026"
+    }
+  }
+}

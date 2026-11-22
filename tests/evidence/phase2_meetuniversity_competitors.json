@@ -1,0 +1,78 @@
+{
+  "company": "MeetUniversity",
+  "competitor_count": 9,
+  "competitors": [
+    {
+      "name": "IDP Education",
+      "role": "direct",
+      "website": "https://www.idp.com/india",
+      "snippet": "counselling for students & parents",
+      "why_relevant": "IDP Education offers study abroad counseling, university application support, and admissions assistance directly overlapping with MeetUniversity's target segment of students looking to study abroad.",
+      "evidence_url": "https://www.idp.com/india"
+    },
+    {
+      "name": "LeapScholar",
+      "role": "direct",
+      "website": "https://leapscholar.com",
+      "snippet": "Find the right universities\nPrepare for exams\nUnlock scholarships\nPlan your finances\nGet visa ready",
+      "why_relevant": "LeapScholar provides study abroad admissions consulting, university shortlisting, test prep, and visa guidance, directly overlapping with MeetUniversity's study abroad and admissions portal services for students planning to study internationally.",
+      "evidence_url": "https://leapscholar.com"
+    },
+    {
+      "name": "KC Overseas Education",
+      "role": "direct",
+      "website": "https://www.studies-overseas.com",
+      "snippet": "Our Tech-enabled solutions help international students and recruitment partners choose the best global universities",
+      "why_relevant": "KC Overseas Education is an EdTech platform providing study abroad admissions and counseling services to international students, directly overlapping with MeetUniversity's target customers and core offerings.",
+      "evidence_url": "https://www.studies-overseas.com"
+    },
+    {
+      "name": "Edmissions",
+      "role": "direct",
+      "website": "https://www.edmissions.com",
+      "snippet": "Empowering Students to Search, Shortlist and Apply to the Right Programs and Institutes to Study Abroad!",
+      "why_relevant": "Edmissions offers an online study abroad admissions platform that helps students search, shortlist, and apply to international institutes and programs, directly overlapping with MeetUniversity's study abroad admissions portal services.",
+      "evidence_url": "https://www.edmissions.com"
+    },
+    {
+      "name": "Admit Abroad",
+      "role": "direct",
+      "website": "https://admitabroad.com",
+      "snippet": "End to end counselling to get into top universities for Bachelors programs.",
+      "why_relevant": "Admit Abroad offers end-to-end study abroad counselling for bachelors, masters, MBA, and MBBS programs, as well as test prep and student loans, directly overlapping with MeetUniversity's EdTech and study abroad admissions portal services targeting students looking to study overseas.",
+      "evidence_url": "https://admitabroad.com"
+    },
+    {
+      "name": "Manya Education",
+      "role": "direct",
+      "website": "https://www.manyagroup.com",
+      "snippet": "We specialize in study abroad admissions in prestigious global MBA, MIM, MS, and UG admissions programs.",
+      "why_relevant": "Manya Education provides international MBA, MS, and UG admissions consulting along with study abroad test preparation (GRE, GMAT, SAT, IELTS), directly overlapping with MeetUniversity's study abroad admissions and test prep portal services for students aspiring to study overseas.",
+      "evidence_url": "https://www.manyagroup.com"
+    },
+    {
+      "name": "Jamboree Education",
+      "role": "direct",
+      "website": "https://www.jamboreeindia.com",
+      "snippet": "the admissions team gave me personalized guidance and daily support. Their targeted university shortlist really helped.",
+      "why_relevant": "Jamboree Education provides test preparation (GMAT, GRE, SAT) and university admissions counseling services for students aspiring to study abroad, directly overlapping with MeetUniversity's study abroad admissions and test prep portal offerings targeting the same student demographic.",
+      "evidence_url": "https://www.jamboreeindia.com"
+    },
+    {
+      "name": "upGrad",
+      "role": "direct",
+      "website": "https://www.upgrad.com",
+      "snippet": "upGrad not only brought me to Germany but also helped me advance my career.",
+      "why_relevant": "upGrad provides study abroad counseling and admissions services for international universities (such as IU Germany and University of Birmingham) targeting the exact same student segment looking for higher education abroad as MeetUniversity.",
+      "evidence_url": "https://www.upgrad.com"
+    },
+    {
+      "name": "Coursera",
+      "role": "substitute",
+      "website": "https://www.coursera.org",
+      "snippet": "Coursera also offers online bachelor\u2019s and master\u2019s degrees from accredited universities, which can support long-term career advancement",
+      "why_relevant": "Coursera offers online degrees and educational programs from universities, competing for students looking for higher education and professional development similar to study abroad and admissions portals like MeetUniversity.",
+      "evidence_url": "https://www.coursera.org"
+    }
+  ]
+}

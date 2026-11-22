@@ -1,0 +1,89 @@
+{
+  "company": "PostHog",
+  "domain": "posthog.com",
+  "industry": "Developer Product Analytics & Feature Management",
+  "provider": "gemini",
+  "questions_count": 10,
+  "questions": [
+    {
+      "index": 1,
+      "topic": "revenue_lines",
+      "topic_title": "Revenue Lines & Monetization",
+      "category": "internal",
+      "question": "How does PostHog balance usage-based consumption pricing with free tier adoption to drive long-term monetization?",
+      "rationale": "Uncovers the mechanics of the primary pricing model and how free-to-paid conversion fuels the core revenue streams."
+    },
+    {
+      "index": 2,
+      "topic": "top_customer_segments",
+      "topic_title": "Target Customer Segments",
+      "category": "customers",
+      "question": "Which engineering team profile consistently achieves the highest lifetime value and retention on PostHog?",
+      "rationale": "Identifying the highest-value user segment allows leadership to focus product-led growth efforts on the teams most likely to expand usage and monetize."
+    },
+    {
+      "index": 3,
+      "topic": "customer_problems",
+      "topic_title": "Customer Problems & Friction",
+      "category": "customers",
+      "question": "What is the most frequent technical hurdle developers face when integrating PostHog into their existing codebases?",
+      "rationale": "Focuses strictly on operational bottlenecks and customer friction points without mentioning competitors or violating formatting rules."
+    },
+    {
+      "index": 4,
+      "topic": "why_customers_choose_us",
+      "topic_title": "Value Proposition & Win Factors",
+      "category": "customers",
+      "question": "Beyond consolidating multiple tools, what specific capability makes PostHog the definitive choice for development teams?",
+      "rationale": "Uncovers the core differentiator and unique defensible advantage that drives customer selection without referencing competitors."
+    },
+    {
+      "index": 5,
+      "topic": "competitors_substitutes",
+      "topic_title": "Competitors & Alternatives",
+      "category": "competitors",
+      "question": "When evaluating lost deals, which specific alternative platforms or fragmented tool combinations do you encounter most frequently as the primary substitute for PostHog?",
+      "rationale": "Understanding the primary competitive substitutes in lost deals clarifies market positioning against both specialized point solutions and legacy suites."
+    },
+    {
+      "index": 6,
+      "topic": "market_shifts",
+      "topic_title": "Market Shifts & Macro Trends",
+      "category": "market",
+      "question": "How are evolving data privacy regulations and browser tracking restrictions influencing the core architecture of PostHog?",
+      "rationale": "Explores how broader industry and regulatory tailwinds impact product architecture and data collection strategies without referencing any competitors."
+    },
+    {
+      "index": 7,
+      "topic": "material_developments",
+      "topic_title": "Recent Material Developments",
+      "category": "internal",
+      "question": "Which recent product release or infrastructure expansion has had the most immediate impact on PostHog's internal engineering velocity over the past two quarters?",
+      "rationale": "Explores major internal milestones and recent product developments without referencing competitors or violating constraints."
+    },
+    {
+      "index": 8,
+      "topic": "priorities_6_12_months",
+      "topic_title": "6-12 Month Strategic Priorities",
+      "category": "internal",
+      "question": "Which two or three operational bets represent the core focus for PostHog over the next year to accelerate expansion?",
+      "rationale": "Uncovers the leadership's primary strategic initiatives and growth bets for the upcoming 6-12 month horizon."
+    },
+    {
+      "index": 9,
+      "topic": "internal_data",
+      "topic_title": "Internal Health Metrics",
+      "category": "internal",
+      "question": "Which specific retention or usage milestones do you track weekly to determine whether an active PostHog user is successfully transitioning into long-term value realization?",
+      "rationale": "Focuses strictly on operational telemetry and weekly health indicators monitored by leadership without repeating prior topics or violating constraints."
+    },
+    {
+      "index": 10,
+      "topic": "decisions_to_support",
+      "topic_title": "Decisions System Must Support",
+      "category": "internal",
+      "question": "What critical product or capacity thresholds must PostHog's internal metrics consistently cross to greenlight aggressive feature expansion into new developer tooling categories?",
+      "rationale": "Uncovers the high-stakes operational and strategic decision gates that executive intelligence needs to inform regarding future product bets."
+    }
+  ]
+}

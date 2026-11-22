@@ -1,0 +1,12 @@
+[theme]
+base = "dark"
+primaryColor = "#0284c7" # Sky 600 - crisp, tech, professional, no violet
+backgroundColor = "#090d16" # Deep obsidian slate
+secondaryBackgroundColor = "#131b2e" # Elevated midnight surface
+textColor = "#f1f5f9" # Slate 100 crisp text
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = false

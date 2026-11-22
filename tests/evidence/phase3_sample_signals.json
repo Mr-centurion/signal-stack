@@ -1,0 +1,71 @@
+{
+  "company": "MeetUniversity",
+  "sample_count": 5,
+  "sample_signals": [
+    {
+      "what": "App Store review for LeapScholar (LeapScholar: Study Abroad App): A Deeply Disappointing and Costly Experience",
+      "category": "customers",
+      "event_type": "customer_complaint",
+      "linked_competitor": "LeapScholar",
+      "source_link": "https://itunes.apple.com/in/rss/customerreviews/id=1618752229/json",
+      "publisher_link": "https://apps.apple.com/us/app/leapscholar-study-abroad-app/id1618752229?uo=4",
+      "published_date": "2025-07-06T21:56:59",
+      "discovery_date": "2026-11-22T10:43:17.715388",
+      "snippet": "I am writing this review to caution fellow students and aspirants planning to study abroad about my experience with LeapScholar. While the platform presents itself as a one-stop solution for overseas education, the reality behind their operations is ",
+      "customer_quote": "I am writing this review to caution fellow students and aspirants planning to study abroad about my experience with LeapScholar. While the platform presents itself as a one-stop solution for overseas education, the reality behind their operations is far from student-oriented. My journey with them has been not only disappointing but also financially and emotionally distressing.\n\nThe biggest issue lies in the fact that LeapScholar's system is purely target- and commission-driven. The counsellors do not prioritize what is genuinely beneficial for the student; instead, they focus on meeting internal targets and pushing students toward decisions that serve the platform\u2019s commercial goals. This was evident in the misleading and factually incorrect information I was provided regarding university admission policies and visa processes.\n\nBased on their advice, I made critical decisions and financial commitments\u2014including application fees, documentation costs, and preparatory services\u2014that ultimately went to waste due to the false and incomplete information given by their counsellors. When the situation turned adverse, LeapScholar completely distanced itself from any responsibility, offering neither support nor redressal for the loss I suffered.\n\nDespite highlighting the losses I incurred\u2014both in terms of time and a significant amount of money\u2014there was no accountability or acknowledgment from their side. Their assurances were mostly oral and not backed by written communication, making it impossible to hold them accountable later.\n\nIt became clear that counsellors are pressured to meet sales targets, and many lack proper training or updated knowledge about international universities and their dynamic admission requirements. This kind of approach can seriously damage a student\u2019s future and financial stability.\n\nMy strong advice to any student considering LeapScholar is this:\n\u2705 Always verify every piece of information given to you with the official university sources.\n\u2705 Never rely on oral promises\u2014get everything in writing.\n\u2705 Do not make any financial decisions based solely on their recommendations.\n\u2705 Remember, you are investing not just money, but your future\u2014choose your advisors wisely.\n\nIn summary, LeapScholar failed to provide accurate guidance, caused a significant financial loss, and did not take any responsibility when things went wrong. I hope my experience serves as a warning to others\u2014be cautious, ask questions, and don\u2019t fall into the trap of marketing-driven counselling.",
+      "unmet_need": "A Deeply Disappointing and Costly Experience"
+    },
+    {
+      "what": "App Store review for LeapScholar (LeapScholar: Study Abroad App): Disappointing experience",
+      "category": "customers",
+      "event_type": "customer_complaint",
+      "linked_competitor": "LeapScholar",
+      "source_link": "https://itunes.apple.com/in/rss/customerreviews/id=1618752229/json",
+      "publisher_link": "https://apps.apple.com/us/app/leapscholar-study-abroad-app/id1618752229?uo=4",
+      "published_date": "2026-04-01T00:45:50",
+      "discovery_date": "2026-11-22T10:43:17.720767",
+      "snippet": "I had a very disappointing experience with LeapScholar.\n\nInitially, the counselling process was quite good, and I was able to secure an offer letter from a university without much difficulty. I also received some support regarding my education loan, ",
+      "customer_quote": "I had a very disappointing experience with LeapScholar.\n\nInitially, the counselling process was quite good, and I was able to secure an offer letter from a university without much difficulty. I also received some support regarding my education loan, which was helpful.\n\nHowever, the experience with the visa team was extremely frustrating. They seemed inexperienced and kept requesting additional documents at different stages\u2014documents that could have been easily arranged earlier if they had guided me properly from the beginning. This lack of clarity and planning led to delays in my visa application.\n\nIt also felt like the team was unsure about the exact documentation requirements. Even after submitting everything, my visa was eventually rejected. Later, when I consulted other experts, I realized that my SOP could have been much more accurate and better structured, which might have improved my chances.\n\nI do not wish to name any individual, but the overall service delivery and commitment need significant improvement.\n\nVery disappointing experience. I would recommend others to consider alternative consultancies if they have better options available.",
+      "unmet_need": "Disappointing experience"
+    },
+    {
+      "what": "App Store review for LeapScholar (LeapScholar: Study Abroad App): Nothing But a Scam and a Waste of Money",
+      "category": "customers",
+      "event_type": "customer_complaint",
+      "linked_competitor": "LeapScholar",
+      "source_link": "https://itunes.apple.com/in/rss/customerreviews/id=1618752229/json",
+      "publisher_link": "https://apps.apple.com/us/app/leapscholar-study-abroad-app/id1618752229?uo=4",
+      "published_date": "2026-03-30T09:11:44",
+      "discovery_date": "2026-11-22T10:43:17.723705",
+      "snippet": "LeapScholar was hands down one of the worst and most frustrating experiences I\u2019ve ever had. They take a huge amount of money from students and in return provide absolutely useless classes, poor guidance, and zero real support.\n\nThe teachers are not h",
+      "customer_quote": "LeapScholar was hands down one of the worst and most frustrating experiences I\u2019ve ever had. They take a huge amount of money from students and in return provide absolutely useless classes, poor guidance, and zero real support.\n\nThe teachers are not helpful, the classes feel like a complete joke, and no one genuinely cares about your concerns once they\u2019ve got your payment. Every time you have a doubt or need actual assistance, they either ignore you, delay things, or give no proper solution at all.\n\nWhat\u2019s most infuriating is how they sell big promises before enrollment, but once you\u2019re in, you realize it\u2019s all just pressure, false commitments, and disappointment. Instead of actually helping students, they seem more focused on forcing you into their classes and extracting as much money as possible.\n\nThis whole experience felt misleading, exploitative, and like a complete scam. I genuinely regret spending my money here. If you are thinking of joining, don\u2019t make the same mistake. There are far better and more honest options out there.",
+      "unmet_need": "Nothing But a Scam and a Waste of Money"
+    },
+    {
+      "what": "App Store review for LeapScholar (LeapScholar: Study Abroad App): Waste of money",
+      "category": "customers",
+      "event_type": "customer_complaint",
+      "linked_competitor": "LeapScholar",
+      "source_link": "https://itunes.apple.com/in/rss/customerreviews/id=1618752229/json",
+      "publisher_link": "https://apps.apple.com/us/app/leapscholar-study-abroad-app/id1618752229?uo=4",
+      "published_date": "2026-09-12T14:50:54",
+      "discovery_date": "2026-11-22T10:43:17.725915",
+      "snippet": "I saw so many adds about them made me take counselling from them , made me pay them 5000 saying we will start your process today itself then when we started initial step started making reason saying first uh do ielts once done asking me to review no ",
+      "customer_quote": "I saw so many adds about them made me take counselling from them , made me pay them 5000 saying we will start your process today itself then when we started initial step started making reason saying first uh do ielts once done asking me to review no university accept this score so poor in information about university and eligibility criteria a student can do better themself instead taking they support always made reason and my 5k lost thou i didn\u2019t got any support or guidance from them pressured me saying its deadline atleast pay initial amount and when i ask fr at-least 70-80% refund thy says no refund - better trust on local consultancy but not this people i did my own study abroad process self with the help of chatgpt they are very poor in counselling , took all university info from me only.",
+      "unmet_need": "Waste of money"
+    },
+    {
+      "what": "App Store review for Coursera (Coursera: Grow your career): Hidden Refund Policy",
+      "category": "customers",
+      "event_type": "customer_complaint",
+      "linked_competitor": "Coursera",
+      "source_link": "https://itunes.apple.com/in/rss/customerreviews/id=736535961/json",
+      "publisher_link": "https://apps.apple.com/us/app/coursera-grow-your-career/id736535961?uo=4",
+      "published_date": "2026-07-26T23:19:37",
+      "discovery_date": "2026-11-22T10:43:23.459936",
+      "snippet": "I requested a refund for Coursera Plus Subscription, but the process is extremely non-transparent. The system simply shows \u201cNot eligible for refund\u201d without providing any clear explanation, terms, or reasoning behind this decision. There is no visibl",
+      "customer_quote": "I requested a refund for Coursera Plus Subscription, but the process is extremely non-transparent. The system simply shows \u201cNot eligible for refund\u201d without providing any clear explanation, terms, or reasoning behind this decision. There is no visible link to detailed refund policy terms before purchase, and customer support does not proactively clarify the eligibility criteria.\n\nThis lack of transparency feels like a deliberate attempt to discourage refund requests rather than genuinely informing customers of their rights. Subscription-based platforms should clearly display refund eligibility conditions upfront \u2014 not bury them or leave customers guessing after the fact.\n\nI would strongly recommend Coursera to make their refund policy more visible, accessible, and clearly communicated at the time of purchase. Until then, I\u2019d advise potential subscribers to research third-party reviews before committing to Coursera Plus.",
+      "unmet_need": "Hidden Refund Policy"
+    }
+  ]
+}

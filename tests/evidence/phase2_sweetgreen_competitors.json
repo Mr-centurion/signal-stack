@@ -1,0 +1,62 @@
+{
+  "company": "Sweetgreen",
+  "competitor_count": 7,
+  "competitors": [
+    {
+      "name": "Chipotle Mexican Grill",
+      "role": "direct",
+      "website": "https://www.chipotle.com",
+      "snippet": "Spread a little extra holiday cheer, one burrito at a time.",
+      "why_relevant": "Chipotle operates as a fast-casual restaurant chain providing prepared meals, directly competing with Sweetgreen for the same lunch and dinner customer segment seeking convenient, quick-service dining.",
+      "evidence_url": "https://www.chipotle.com"
+    },
+    {
+      "name": "Dig",
+      "role": "direct",
+      "website": "https://www.diginn.com",
+      "snippet": "With the Dig Inn app, eating what you love gets you more of what you love.",
+      "why_relevant": "Dig operates as a fast-casual restaurant chain focusing on healthy, vegetable-forward meals, directly competing with Sweetgreen for the same health-conscious, urban lunch and dinner customer base.",
+      "evidence_url": "https://www.diginn.com"
+    },
+    {
+      "name": "Chopt Creative Salad Co.",
+      "role": "direct",
+      "website": "https://www.choptsalad.com",
+      "snippet": "Meet the Power Bowl Collection, featuring protein-packed bowls with fiber-rich beans and thoughtfully portioned ingredients to keep you going.",
+      "why_relevant": "Chopt Creative Salad Co. operates as a fast-casual restaurant chain specializing in salads and bowls, directly competing with Sweetgreen for the same health-conscious, quick-service dining customer base.",
+      "evidence_url": "https://www.choptsalad.com"
+    },
+    {
+      "name": "Just Salad",
+      "role": "direct",
+      "website": "https://www.justsalad.com",
+      "snippet": "Veggies Diced Daily Homemade Dressings Fresh-Prepped Proteins",
+      "why_relevant": "Just Salad is a fast-casual restaurant chain that directly competes with Sweetgreen by offering similar healthy, vegetable-forward meals, fresh-prepped proteins, and homemade dressings to the same health-conscious consumer demographic.",
+      "evidence_url": "https://www.justsalad.com"
+    },
+    {
+      "name": "Panera Bread",
+      "role": "direct",
+      "website": "https://www.panerabread.com/en-us/home.html",
+      "snippet": "$2 Off Any Salad Just For You",
+      "why_relevant": "Panera Bread operates as a fast-casual restaurant chain offering salads and prepared meals, directly competing with Sweetgreen for the same health-conscious, quick-service dining customer segment.",
+      "evidence_url": "https://www.panerabread.com/en-us/home.html"
+    },
+    {
+      "name": "Daily Harvest",
+      "role": "substitute",
+      "website": "https://daily-harvest.com",
+      "snippet": "Or keep breakfast and lunch covered, with room for festive dinner plans, with 30% off our 21-Day Routine Reset.",
+      "why_relevant": "Daily Harvest provides healthy, dietitian-developed meal options that serve as a direct substitute for Sweetgreen's fast-casual, health-conscious lunch and dinner offerings for the same target demographic.",
+      "evidence_url": "https://daily-harvest.com"
+    },
+    {
+      "name": "Farmer's Fridge",
+      "role": "substitute",
+      "website": "https://www.farmersfridge.com",
+      "snippet": "tastier, healthier meals are always within reach.",
+      "why_relevant": "Farmer's Fridge provides healthy, pre-packaged meals in a fast-casual format similar to Sweetgreen, targeting time-constrained consumers seeking nutritious food options.",
+      "evidence_url": "https://www.farmersfridge.com"
+    }
+  ]
+}

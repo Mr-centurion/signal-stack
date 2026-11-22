@@ -1,0 +1,41 @@
+{
+  "test_type": "Phase 2 Competitor & Source Discovery Verification (Two-Step & Customer Voice)",
+  "provider": "gemini",
+  "meetuniversity_competitors_count": 9,
+  "sweetgreen_competitors_count": 7,
+  "competitor_overlap": [],
+  "meetuniversity_approved_sources": 26,
+  "meetuniversity_distinct_domains": {
+    "itunes.apple.com": 8,
+    "news.google.com": 6,
+    "yocket.com": 2,
+    "manyagroup.com": 2,
+    "sitejabber.com": 1,
+    "idp.com": 1,
+    "gradvine.com": 1,
+    "coursera.org": 1,
+    "magoosh.com": 1,
+    "monitor.icef.com": 1,
+    "thepienews.com": 1,
+    "studyinternational.com": 1
+  },
+  "meetuniversity_gnews_ratio": 0.231,
+  "sweetgreen_approved_sources": 25,
+  "sweetgreen_distinct_domains": {
+    "itunes.apple.com": 7,
+    "news.google.com": 6,
+    "panerabread.com": 2,
+    "sitejabber.com": 1,
+    "chipotle.com": 1,
+    "diginn.com": 1,
+    "choptsalad.com": 1,
+    "daily-harvest.com": 1,
+    "farmersfridge.com": 1,
+    "qsrmagazine.com": 1,
+    "restaurantbusinessonline.com": 1,
+    "fda.gov": 1,
+    "ers.usda.gov": 1
+  },
+  "sweetgreen_gnews_ratio": 0.24,
+  "verdict": "PASSED \u2014 Two-step grounded competitors, customer-voice sources, 25% Google News cap, and distinct domain breakdowns verified."
+}

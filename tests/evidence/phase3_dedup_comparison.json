@@ -1,0 +1,31 @@
+{
+  "test_type": "Phase 3 Crawl Engine, Change Detection & Deduplication Verification",
+  "company": "MeetUniversity",
+  "provider": "gemini",
+  "crawl_run_1": {
+    "run_id": 1,
+    "documents_found": 29,
+    "items_new": 29,
+    "items_changed": 0,
+    "signals_generated": 19,
+    "category_breakdown": {
+      "customers": 12,
+      "competitors": 7,
+      "market": 0,
+      "internal": 0
+    }
+  },
+  "crawl_run_2": {
+    "run_id": 2,
+    "documents_found": 4,
+    "items_new": 0,
+    "items_changed": 1
+  },
+  "deduplication_delta": {
+    "run1_items_new": 29,
+    "run2_items_new": 0,
+    "deduplication_efficiency": "100% (Zero duplicate signals created on second crawl)"
+  },
+  "verbatim_grounding_verified": true,
+  "verdict": "PASSED \u2014 Full crawl executed, ETag & hash dedup verified (~0 new items on immediate second run), verbatim quotes grounded."
+}

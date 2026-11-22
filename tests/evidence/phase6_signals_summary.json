@@ -1,0 +1,24 @@
+{
+  "total_signals": 135,
+  "target_met": true,
+  "companies": {
+    "MeetUniversity": {
+      "customers": 28,
+      "competitors": 13,
+      "market": 16,
+      "internal": 0
+    },
+    "Sweetgreen": {
+      "customers": 8,
+      "competitors": 20,
+      "market": 2,
+      "internal": 1
+    },
+    "PostHog": {
+      "customers": 1,
+      "competitors": 41,
+      "market": 1,
+      "internal": 4
+    }
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "report_id": 6,
+  "company_id": 1,
+  "change_type": "strategic_shift",
+  "change_description": "Strategic shift: MeetUniversity is pivoting from UK/Canada general counseling to specialized German public tuition-free STEM university admissions (DAAD guidelines, APS certificate validation, TestDaF/IELTS requirements, and English-taught Master's degrees).",
+  "sources_before_count": 53,
+  "sources_after_count": 45,
+  "metrics": {
+    "sources_audited": 53,
+    "sources_retained_count": 17,
+    "sources_recommended_removal": 13,
+    "sources_recommended_addition": 5,
+    "competitors_evaluated": 10
+  },
+  "removed_recommendations": [
+    {
+      "id": 1,
+      "source_id": 12,
+      "source_url": "https://mantrahealth.com",
+      "source_name": "Competitors Source #12",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.0,
+      "reason": "Misaligned with updated priority 'Strategic shift: MeetUniversity is pivoting from UK/Canada g...': Mantra Health is a mental health platform and irrelevant to German study abroad admissions.",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "source_id": 13,
+      "source_url": "https://mantrahealth.com/feed",
+      "source_name": "Competitors Source #13",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.0,
+      "reason": "Misaligned with updated priority 'Strategic shift: MeetUniversity is pivoting from UK/Canada g...': Mantra Health blog is irrelevant to the new strategic focus on German public universities.",
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "source_id": 14,
+      "source_url": "https://news.google.com/rss/search?q=Mantra+Health+product+launch+OR+pricing&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_name": "Competitors Source #14",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.0,
+      "reason": "Misaligned with updated priority 'Strategic shift: MeetUniversity is pivoting from UK/Canada g...': Competitor updates for Mantra Health are completely misaligned with EdTech study abroad.",
+      "status": "pending"
+    },
+    {
+      "id": 4,
+      "source_id": 17,
+      "source_url": "https://news.google.com/rss/search?q=AbroBot.ai+product+launch+OR+pricing&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_name": "Competitors Source #17",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.1,
+      "reason": "Misaligned with updated priority 'Strategic shift: MeetUniversity is pivoting from UK/Canada g...': AbroBot.ai is a generic chatbot competitor, low relevance to specialized German DAAD/APS counseling.",
+      "status": "pending"
+    },
+    {
+      "id": 5,
+      "source_id": 18,
+      "source_url": "https://www.nats.org",
+      "source_name": "Competitors Source #18",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.0,
+      "reason": "Misaligned with updated priority 'Strategic shift: MeetUniversity is pivoting from UK/Canada g...': Ohio NATS is unrelated to international education or German university admissions.",
+      "status": "pending"
+    },
+    {
+      "id": 6,
+      "source_id": 23,
+      "source_url": "https://news.google.com/rss/search?q=Poets%26Quants+product+launch+OR+pricing&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_name": "Competitors Source #23",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.2,
+      "reason": "Misaligned with updated priority 'Strategic shift: MeetUniversity is pivoting from UK/Canada g...': Poets&Quants focuses primarily on MBA and business school admissions, whereas the pivot is toward German public STEM programs.",
+      "status": "pending"
+    },
+    {
+      "id": 7,
+      "source_id": 24,
+      "source_url": "https://www.timeshighereducation.com",
+      "source_name": "Competitors Source #24",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.5,
+      "reason": "Misaligned with updated priority 'Strategic shift: MeetUniversity is pivoting from UK/Canada g...': Times Higher Education provides global university rankings and academic trends, moderately useful for tracking German public universities.",
+      "status": "pending"
+    },
+    {
+      "id": 8,
+      "source_id": 26,
+      "source_url": "https://news.google.com/rss/search?q=Times+Higher+Education+product+launch+OR+pricing&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_name": "Competitors Source #26",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.5,
+      "reason": "Misaligned with updated priority 'Strategic shift: MeetUniversity is pivoting from UK/Canada g...': THE news updates help track higher education policy changes and university standings globally, including Europe.",
+      "status": "pending"
+    },
+    {
+      "id": 9,
+      "source_id": 27,
+      "source_url": "https://www.shanghairanking.com",
+      "source_name": "Competitors Source #27",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.4,
+      "reason": "Misaligned with updated priority 'Strategic shift: MeetUniversity is pivoting from UK/Canada g...': ShanghaiRanking provides global university rankings which can assist in tracking top German STEM institutions.",
+      "status": "pending"
+    },
+    {
+      "id": 10,
+      "source_id": 30,
+      "source_url": "https://www.forbesindia.com",
+      "source_name": "Competitors Source #30",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.1,
+      "reason": "Misaligned with updated priority 'Strategic shift: MeetUniversity is pivoting from UK/Canada g...': Forbes India is a general business publication with minimal direct utility for German university admissions.",
+      "status": "pending"
+    },
+    {
+      "id": 11,
+      "source_id": 31,
+      "source_url": "https://www.forbesindia.com/feed",
+      "source_name": "Competitors Source #31",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.1,
+      "reason": "Misaligned with updated priority 'Strategic shift: MeetUniversity is pivoting from UK/Canada g...': Forbes India feed offers broad business news rather than targeted study abroad insights.",
+      "status": "pending"
+    },
+    {
+      "id": 12,
+      "source_id": 34,
+      "source_url": "https://www.gov.uk/government/organisations/uk-visas-and-immigration",
+      "source_name": "Market Source #34",
+      "category": "market",
+      "action": "remove",
+      "relevance_score": 0.2,
+      "reason": "Misaligned with updated priority 'Strategic shift: MeetUniversity is pivoting from UK/Canada g...': UK Visas and Immigration portal is misaligned now that the company has pivoted away from UK/Canada counseling to Germany.",
+      "status": "pending"
+    },
+    {
+      "id": 13,
+      "source_id": 36,
+      "source_url": "https://news.google.com/rss/search?q=Australia+Canada+UK+international+student+visa+caps+policy&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_name": "Market Source #36",
+      "category": "market",
+      "action": "remove",
+      "relevance_score": 0.3,
+      "reason": "Misaligned with updated priority 'Strategic shift: MeetUniversity is pivoting from UK/Canada g...': Tracking visa caps for Australia, Canada, and the UK is less critical following the strategic shift toward tuition-free German admissions.",
+      "status": "pending"
+    }
+  ],
+  "added_recommendations": [
+    {
+      "id": 1,
+      "source_id": 100153,
+      "source_url": "https://www.reddit.com/search.json?q=study+abroad+visa+document+validation+rejection+reasons&sort=new",
+      "source_name": "New Candidate: Customers Feed",
+      "category": "customers",
+      "action": "add",
+      "reason": "Discovered for updated strategy: Real-time user community discussions on Reddit regarding 'study abroad visa document validation rejection reasons' friction.",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "source_id": 100154,
+      "source_url": "https://www.reddit.com/search.json?q=how+to+track+international+university+application+status+frustrated&sort=new",
+      "source_name": "New Candidate: Customers Feed",
+      "category": "customers",
+      "action": "add",
+      "reason": "Discovered for updated strategy: Real-time user community discussions on Reddit regarding 'how to track international university application status frustrated' friction.",
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "source_id": 100126,
+      "source_url": "https://www.reddit.com/search.json?q=post+study+work+visa+policy+changes+international+students+complaints&sort=new",
+      "source_name": "New Candidate: Customers Feed",
+      "category": "customers",
+      "action": "add",
+      "reason": "Discovered for updated strategy: Real-time user community discussions on Reddit regarding 'post study work visa policy changes international students complaints' friction.",
+      "status": "pending"
+    },
+    {
+      "id": 4,
+      "source_id": 4,
+      "source_url": "https://www.reddit.com/r/studyabroad/.json",
+      "source_name": "New Candidate: Customers Feed",
+      "category": "customers",
+      "action": "add",
+      "reason": "Discovered for updated strategy: Prospective international students discussing university choices, application anxiety, and advisory friction.",
+      "status": "pending"
+    },
+    {
+      "id": 5,
+      "source_id": 5,
+      "source_url": "https://www.reddit.com/r/Indians_StudyAbroad/.json",
+      "source_name": "New Candidate: Customers Feed",
+      "category": "customers",
+      "action": "add",
+      "reason": "Discovered for updated strategy: Direct student discussions detailing visa rejections, admission delays, and agency complaints.",
+      "status": "pending"
+    }
+  ],
+  "competitors_diff": {
+    "competitors_before_count": 10,
+    "competitors_removed": [
+      {
+        "name": "IDP Education",
+        "type": "direct",
+        "reason": "UK/Australia regional focus misaligned with specialized German university admissions."
+      },
+      {
+        "name": "Edwise International",
+        "type": "direct",
+        "reason": "UK/Australia regional focus misaligned with specialized German university admissions."
+      },
+      {
+        "name": "Canam Consultants",
+        "type": "direct",
+        "reason": "UK/Australia regional focus misaligned with specialized German university admissions."
+      }
+    ],
+    "competitors_added": [
+      {
+        "name": "Expatrio",
+        "type": "substitute",
+        "url": "https://www.expatrio.com",
+        "reason": "Direct competitor for German blocked accounts, health insurance, and university application packages."
+      },
+      {
+        "name": "Fintiba",
+        "type": "substitute",
+        "url": "https://www.fintiba.com",
+        "reason": "Digital preparation platform for international students moving to Germany."
+      },
+      {
+        "name": "Study-in-Germany (DAAD)",
+        "type": "direct",
+        "url": "https://www.study-in-germany.de",
+        "reason": "Official German academic exchange service and English-taught STEM course portal."
+      }
+    ],
+    "competitors_after_count": 10,
+    "notes": "Competitor landscape re-grounded around updated priority: Strategic shift: MeetUniversity is pivoting from UK/Canada general counseling to specialized German public tuition-free STEM university admissions (DAAD guidelines, APS certificate validation, TestDaF/IELTS requirements, and English-taught Master's degrees)."
+  }
+}

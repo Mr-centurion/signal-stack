@@ -1,0 +1,450 @@
+{
+  "report_id": 12,
+  "company_id": 1,
+  "change_type": "strategic_pivot",
+  "change_description": "Strategic pivot: MeetUniversity is pivoting focus to German public universities, tuition-free education counseling, blocked accounts, and German student visa requirements (APS certificate and TestAS), expanding operations into Berlin and Munich.",
+  "sources_before_count": 64,
+  "sources_after_count": 46,
+  "metrics": {
+    "sources_audited": 64,
+    "sources_retained_count": 7,
+    "sources_recommended_removal": 23,
+    "sources_recommended_addition": 5,
+    "competitors_evaluated": 7
+  },
+  "competitors_diff": {
+    "competitors_before_count": 7,
+    "competitors_removed": [
+      {
+        "name": "Shorelight",
+        "type": "direct",
+        "reason": "Shorelight is hyper-focused on the US higher education market and university partnerships. As MeetUniversity pivots exclusively to German public universities and tuition-free education, Shorelight's US-centric model is no longer a relevant competitive benchmark."
+      },
+      {
+        "name": "Unibuddy",
+        "type": "direct",
+        "reason": "Unibuddy is a B2B SaaS platform focused on student engagement and peer-to-peer marketing for universities. It does not provide the specialized visa, blocked account, and APS certificate counseling services that define MeetUniversity's new niche focus."
+      }
+    ],
+    "competitors_added": [
+      {
+        "name": "Expatrio",
+        "type": "substitute",
+        "url": "https://www.expatrio.com",
+        "reason": "Discovered and verified via live website audit: Expatrio provides essential financial and insurance services (Blocked Accounts, health insurance) required by international students to secure visas for study abroad, which is a critical post-admissions step for the same customer segment targeted by MeetUniversity.",
+        "evidence_url": "https://www.expatrio.com",
+        "evidence_snippet": "The all-in-one visa package for internationals coming to Germany. Trusted by 250,000 users worldwide.",
+        "is_verified": true
+      },
+      {
+        "name": "Edugo Abroad",
+        "type": "direct",
+        "url": "https://edugoabroad.com",
+        "reason": "Discovered and verified via live website audit: Edugo Abroad operates as a study abroad consultancy and admissions platform, directly competing with MeetUniversity by offering student counseling, university application assistance, and visa processing services to students seeking international education.",
+        "evidence_url": "https://edugoabroad.com",
+        "evidence_snippet": "As India\u2019s Leading Study Visa Consultant, We Specialize In Guiding Students To The Best Universities And Courses In Europe",
+        "is_verified": true
+      }
+    ],
+    "competitors_after_count": 7,
+    "notes": "Competitor landscape re-grounded around updated priority via two-step discovery: Strategic pivot: MeetUniversity is pivoting focus to German public universities, tuition-free education counseling, blocked accounts, and German student visa requirements (APS certificate and TestAS), expanding operations into Berlin and Munich."
+  },
+  "removed_source_recommendations": [
+    {
+      "id": 1,
+      "source_id": 34,
+      "source_url": "https://www.gov.uk/government/organisations/uk-visas-and-immigration",
+      "source_name": "Market Source #34",
+      "category": "market",
+      "action": "remove",
+      "relevance_score": 0.1,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': Low relevance; focus has shifted from UK to Germany. Should be replaced by German government visa portals.",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "source_id": 47,
+      "source_url": "https://www.idp.com/india",
+      "source_name": "Competitors Source #47",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.5,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': General competitor monitoring, but IDP is less specialized in the German public university niche.",
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "source_id": 49,
+      "source_url": "https://news.google.com/rss/search?q=IDP+Education+product+launch+OR+pricing&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_name": "Competitors Source #49",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.4,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': Limited relevance as IDP's product launches are primarily focused on English-speaking markets outside Germany.",
+      "status": "pending"
+    },
+    {
+      "id": 4,
+      "source_id": 52,
+      "source_url": "https://news.google.com/rss/search?q=LeapScholar+product+launch+OR+pricing&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_name": "Competitors Source #52",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.5,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': LeapScholar is a major competitor; monitoring their German market entry is strategic.",
+      "status": "pending"
+    },
+    {
+      "id": 5,
+      "source_id": 53,
+      "source_url": "https://www.studies-overseas.com",
+      "source_name": "Competitors Source #53",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.4,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': General competitor; lower priority unless they expand significantly into the German public sector.",
+      "status": "pending"
+    },
+    {
+      "id": 6,
+      "source_id": 56,
+      "source_url": "https://www.manyagroup.com",
+      "source_name": "Competitors Source #56",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.3,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': Focus is primarily on US/UK test prep; less relevant to German public university admissions.",
+      "status": "pending"
+    },
+    {
+      "id": 7,
+      "source_id": 57,
+      "source_url": "https://www.manyagroup.com/feed",
+      "source_name": "Competitors Source #57",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.3,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': Low relevance due to Manya's focus on US/UK markets.",
+      "status": "pending"
+    },
+    {
+      "id": 8,
+      "source_id": 62,
+      "source_url": "https://www.applyboard.com",
+      "source_name": "Competitors Source #62",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.5,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': ApplyBoard is a large competitor, but their focus is broader than the German public university niche.",
+      "status": "pending"
+    },
+    {
+      "id": 9,
+      "source_id": 64,
+      "source_url": "https://news.google.com/rss/search?q=ApplyBoard+product+launch+OR+pricing&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_name": "Competitors Source #64",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.4,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': General competitor monitoring; less specific to the German pivot.",
+      "status": "pending"
+    },
+    {
+      "id": 10,
+      "source_id": 65,
+      "source_url": "https://edvoy.com",
+      "source_name": "Competitors Source #65",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.5,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': Edvoy is a competitor; monitoring their German market activity is useful.",
+      "status": "pending"
+    },
+    {
+      "id": 11,
+      "source_id": 68,
+      "source_url": "https://prodigyfinance.com",
+      "source_name": "Competitors Source #68",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.3,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': Prodigy Finance focuses on loans; less relevant to tuition-free German education counseling.",
+      "status": "pending"
+    },
+    {
+      "id": 12,
+      "source_id": 71,
+      "source_url": "https://itunes.apple.com/in/rss/customerreviews/id=6451054640/json",
+      "source_name": "Customers Source #71",
+      "category": "customers",
+      "action": "remove",
+      "relevance_score": 0.2,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': Low relevance; IDP app reviews are not specific to the German market.",
+      "status": "pending"
+    },
+    {
+      "id": 13,
+      "source_id": 72,
+      "source_url": "https://itunes.apple.com/in/rss/customerreviews/id=1618752229/json",
+      "source_name": "Customers Source #72",
+      "category": "customers",
+      "action": "remove",
+      "relevance_score": 0.4,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': LeapScholar app reviews may contain insights into their German service offerings.",
+      "status": "pending"
+    },
+    {
+      "id": 14,
+      "source_id": 73,
+      "source_url": "https://itunes.apple.com/in/rss/customerreviews/id=6473614202/json",
+      "source_name": "Customers Source #73",
+      "category": "customers",
+      "action": "remove",
+      "relevance_score": 0.3,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': General competitor app; low relevance to German-specific pivot.",
+      "status": "pending"
+    },
+    {
+      "id": 15,
+      "source_id": 74,
+      "source_url": "https://itunes.apple.com/in/rss/customerreviews/id=1536116642/json",
+      "source_name": "Customers Source #74",
+      "category": "customers",
+      "action": "remove",
+      "relevance_score": 0.0,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': Irrelevant; Manta is a digital comics app, not an EdTech competitor.",
+      "status": "pending"
+    },
+    {
+      "id": 16,
+      "source_id": 76,
+      "source_url": "https://itunes.apple.com/in/rss/customerreviews/id=1623582596/json",
+      "source_name": "Customers Source #76",
+      "category": "customers",
+      "action": "remove",
+      "relevance_score": 0.4,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': Edvoy app reviews; moderate relevance for competitor benchmarking.",
+      "status": "pending"
+    },
+    {
+      "id": 17,
+      "source_id": 77,
+      "source_url": "https://itunes.apple.com/in/rss/customerreviews/id=1328183408/json",
+      "source_name": "Customers Source #77",
+      "category": "customers",
+      "action": "remove",
+      "relevance_score": 0.2,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': Prodigy Finance app reviews are not relevant to the German public university pivot.",
+      "status": "pending"
+    },
+    {
+      "id": 18,
+      "source_id": 80,
+      "source_url": "https://www.edwiseinternational.com",
+      "source_name": "Competitors Source #80",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.3,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': Edwise is a traditional agency; lower relevance to digital-first German portal strategy.",
+      "status": "pending"
+    },
+    {
+      "id": 19,
+      "source_id": 81,
+      "source_url": "https://www.edwiseinternational.com/feed",
+      "source_name": "Competitors Source #81",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.3,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': Low relevance to digital-first German pivot.",
+      "status": "pending"
+    },
+    {
+      "id": 20,
+      "source_id": 86,
+      "source_url": "https://www.coursera.org",
+      "source_name": "Competitors Source #86",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.2,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': Coursera is a MOOC provider, not a direct competitor for German university admissions counseling.",
+      "status": "pending"
+    },
+    {
+      "id": 21,
+      "source_id": 88,
+      "source_url": "https://news.google.com/rss/search?q=Coursera+product+launch+OR+pricing&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_name": "Competitors Source #88",
+      "category": "competitors",
+      "action": "remove",
+      "relevance_score": 0.2,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': Low relevance to the German admissions portal strategy.",
+      "status": "pending"
+    },
+    {
+      "id": 22,
+      "source_id": 89,
+      "source_url": "https://itunes.apple.com/in/rss/customerreviews/id=548642814/json",
+      "source_name": "Customers Source #89",
+      "category": "customers",
+      "action": "remove",
+      "relevance_score": 0.0,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': Irrelevant; Edsby is a K-12 school management platform.",
+      "status": "pending"
+    },
+    {
+      "id": 23,
+      "source_id": 90,
+      "source_url": "https://itunes.apple.com/in/rss/customerreviews/id=6741764922/json",
+      "source_name": "Customers Source #90",
+      "category": "customers",
+      "action": "remove",
+      "relevance_score": 0.2,
+      "reason": "Misaligned with updated priority 'Strategic pivot: MeetUniversity is pivoting focus to German ...': Low relevance; not a direct competitor in the German study abroad space.",
+      "status": "pending"
+    }
+  ],
+  "added_source_recommendations": [
+    {
+      "id": 1,
+      "source_id": 100285,
+      "source_url": "https://www.reddit.com/search.json?q=how+to+handle+visa+document+rejection+for+international+students&sort=new",
+      "source_name": "New Candidate: Customers Feed",
+      "category": "customers",
+      "action": "add",
+      "reason": "Discovered for updated strategy: Real-time user community discussions on Reddit regarding 'how to handle visa document rejection for international students' friction.",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "source_id": 100286,
+      "source_url": "https://www.reddit.com/search.json?q=frustrations+with+study+abroad+application+tracking&sort=new",
+      "source_name": "New Candidate: Customers Feed",
+      "category": "customers",
+      "action": "add",
+      "reason": "Discovered for updated strategy: Real-time user community discussions on Reddit regarding 'frustrations with study abroad application tracking' friction.",
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "source_id": 100287,
+      "source_url": "https://www.reddit.com/search.json?q=challenges+with+UK+post-study+work+visa+requirements&sort=new",
+      "source_name": "New Candidate: Customers Feed",
+      "category": "customers",
+      "action": "add",
+      "reason": "Discovered for updated strategy: Real-time user community discussions on Reddit regarding 'challenges with UK post-study work visa requirements' friction.",
+      "status": "pending"
+    },
+    {
+      "id": 4,
+      "source_id": 4,
+      "source_url": "https://www.reddit.com/r/studyabroad/.json",
+      "source_name": "New Candidate: Customers Feed",
+      "category": "customers",
+      "action": "add",
+      "reason": "Discovered for updated strategy: Primary hub for students discussing the challenges, visa hurdles, and frustrations associated with international education consultants.",
+      "status": "pending"
+    },
+    {
+      "id": 5,
+      "source_id": 5,
+      "source_url": "https://www.reddit.com/r/Indians_StudyAbroad/.json",
+      "source_name": "New Candidate: Customers Feed",
+      "category": "customers",
+      "action": "add",
+      "reason": "Discovered for updated strategy: Highly active community where students share experiences with specific admission portals and counseling services.",
+      "status": "pending"
+    }
+  ],
+  "before_context": {
+    "note": "Baseline prior to strategic update"
+  },
+  "after_context": {
+    "industry": "EdTech & Study Abroad Admissions Portal",
+    "description": "A digital portal facilitating study abroad admissions and educational counseling.",
+    "facts": [
+      {
+        "claim": "Study Abroad Admissions Consulting",
+        "status": "assumption"
+      },
+      {
+        "claim": "University Admissions Counseling",
+        "status": "assumption"
+      },
+      {
+        "claim": "Study Abroad Guidance",
+        "status": "assumption"
+      },
+      {
+        "claim": "International Students",
+        "status": "assumption"
+      },
+      {
+        "claim": "A digital portal facilitating study abroad admissions and educational counseling.",
+        "status": "assumption"
+      },
+      {
+        "claim": "Global",
+        "status": "assumption"
+      },
+      {
+        "claim": "Commission-based recruitment from partner universities and service fees from students.",
+        "status": "assumption"
+      },
+      {
+        "claim": "Competitor Hypothesis: IDP Education (Global leader in international student placement and English language testing.)",
+        "status": "assumption"
+      },
+      {
+        "claim": "Competitor Hypothesis: ApplyBoard (Large-scale digital platform connecting international students to academic institutions.)",
+        "status": "assumption"
+      },
+      {
+        "claim": "Competitor Hypothesis: Leap Scholar (Focuses on study abroad counseling and financial services for international students.)",
+        "status": "assumption"
+      }
+    ],
+    "interview_answers": [
+      {
+        "topic": "revenue_lines",
+        "answer": "[TEST FIXTURE] Institutional university recruitment commissions (8-12% of first year tuition) plus premium student counseling packages."
+      },
+      {
+        "topic": "top_customer_segments",
+        "answer": "[TEST FIXTURE] Indian undergraduate and postgraduate STEM applicants seeking admission to universities in the UK, US, Canada, and Australia."
+      },
+      {
+        "topic": "customer_problems",
+        "answer": "[TEST FIXTURE] Complex visa document validation, changing post-study work visa policies, and lack of transparent application tracking."
+      },
+      {
+        "topic": "why_customers_choose_us",
+        "answer": "[TEST FIXTURE] Direct tie-ups with 200+ global partner institutions and tech-enabled document verification platform."
+      },
+      {
+        "topic": "competitors_substitutes",
+        "answer": "[TEST FIXTURE] Leverage Edu, Leap Scholar, IDP Education, Yocket, and local regional study-abroad agents."
+      },
+      {
+        "topic": "market_shifts",
+        "answer": "[TEST FIXTURE] Canada and Australia international student visa caps and increased UK salary thresholds for skilled workers."
+      },
+      {
+        "topic": "material_developments",
+        "answer": "[TEST FIXTURE] Launched AI course recommendation engine and partnered with 15 new UK polytechnic universities."
+      },
+      {
+        "topic": "priorities_6_12_months",
+        "answer": "[TEST FIXTURE] Expand institutional partnerships into Ireland and Germany, and launch IELTS/TOEFL coaching vertical."
+      },
+      {
+        "topic": "internal_data",
+        "answer": "[TEST FIXTURE] Lead-to-offer letter conversion rate and visa acceptance rate per intake."
+      },
+      {
+        "topic": "decisions_to_support",
+        "answer": "[TEST FIXTURE] Allocation of regional student marketing budgets across North India versus South India hubs."
+      }
+    ]
+  }
+}

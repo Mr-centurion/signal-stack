@@ -1,0 +1,44 @@
+# Agent & Editor Folders
+.agents/
+.gemini/
+.claude/
+.cursor/
+.vscode/
+.idea/
+node_modules/
+
+# Environment & Secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+!data/demo/signal_stack_demo.db
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.pytest_cache/
+
+# Logs & Output
+*.log
+output.txt
+
+# Artifacts & Frozen Reports
+reports_frozen/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Temp
+.taste-skill/
+shots/

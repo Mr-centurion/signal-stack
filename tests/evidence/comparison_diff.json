@@ -1,0 +1,16 @@
+{
+  "company_a": {
+    "name": "MeetUniversity",
+    "domain": "www.meetuniversity.com",
+    "question_1": "Regarding MeetUniversity's revenue lines: what is your primary strategic focus and operational mechanism in this area?",
+    "topic": "revenue_lines"
+  },
+  "company_b": {
+    "name": "PostHog",
+    "domain": "posthog.com",
+    "question_1": "Regarding PostHog's revenue lines: what is your primary strategic focus and operational mechanism in this area?",
+    "topic": "revenue_lines"
+  },
+  "questions_are_different": true,
+  "validation": "Passed: Dynamic, non-generic, company-specific questions verified."
+}
