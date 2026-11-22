@@ -8,7 +8,7 @@ Signal Stack turns a company name and website into a continuously monitored inte
 
 - Live URL: not deployed. This is a documented local setup, which the assignment allows.
 - Repository: https://github.com/Mr-centurion/signal-stack
-- Demo video: `[DEMO_URL]`
+
 
 ## Contents
 
