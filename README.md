@@ -167,5 +167,4 @@ docs/          technical documentation, cost statement, demo script, test eviden
 - [Technical documentation](docs/TECHNICAL_DOCUMENTATION.md)
 - [Cost statement](docs/COST_STATEMENT.md)
 - [Test evidence index](docs/TEST_EVIDENCE.md)
-- [Demo script](docs/DEMO_SCRIPT.md)
 - [Architecture decisions](docs/DECISIONS.md) and [requirements tracker](docs/REQUIREMENTS_TRACKER.md)
