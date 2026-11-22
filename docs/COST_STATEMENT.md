@@ -29,7 +29,7 @@
 - **Output varies by model.** Because the model can rotate, wording of briefs can differ between runs. The validators apply to every model.
 - **Crawling limits.** The crawler waits 2.0 seconds between requests to the same host and runs 3 requests in parallel. Sources that disallow crawlers are not fetched.
 - **Reddit** requires OAuth credentials and is skipped when they are absent.
-- **No deployment.** The project runs locally, so there are no hosting limits to disclose. `[UPDATE if you deploy: provider, free-tier limits, sleep behaviour]`
+- **No deployment.** The project runs locally, so there are no hosting limits to disclose.
 
 ## Cost at scale (informational)
 

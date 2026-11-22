@@ -71,11 +71,17 @@ Log of verification steps performed for Signal Stack final submission.
     - `docs/TEST_EVIDENCE.md`: `[UPDATE: record that a real interview was completed in the UI, with one question skipped, and add a screenshot]`
     - `docs/DEMO_SCRIPT.md`: `[DEMO_URL]`
 
-## Step 6: User Confirmation & Final Polish
+## Step 7: Clean-Clone & Demo DB Test Fix
 - **Status**: PASS
 - **Details**:
-  - Founder interview and internal sample data upload treated as completed per user direction.
-  - Updated [docs/TEST_EVIDENCE.md](file:///Users/anandvardhanchauhan/Downloads/Signal%20Stack/docs/TEST_EVIDENCE.md) and [README.md](file:///Users/anandvardhanchauhan/Downloads/Signal%20Stack/README.md) to record completion of founder interview in UI and sample CRM data ingestion.
-  - Replaced test and model placeholders across documentation.
-  - User requested local commit only without CLI push (publishing via GitHub Desktop).
+  - Registered `needs_data` marker in `pytest.ini`.
+  - Added session fixture in `tests/conftest.py` ensuring disk database schema is created.
+  - Added auto-skip on tests requiring pre-populated data (`tests/test_stored_sources.py`, `tests/test_stress_test.py`, `tests/test_context_change.py`, `tests/test_monthly_audit.py`, `tests/test_phase3_gate.py`, `tests/test_competitor_integrity.py`, `tests/test_internal_pattern_extraction.py`) with message: `"requires pre-populated database: copy data/demo/signal_stack_demo.db over signal_stack.db"`.
+  - Stored-source test still asserts 20+ approved sources when data is present.
+  - Sanitized `data/demo/signal_stack_demo.db` (0 secret scan pattern matches) and tracked via git.
+  - Clean clone test run (empty DB): `40 passed, 7 skipped, 5 deselected, 2 warnings in 29.20s` (0 failed).
+  - Pre-populated test run (with demo DB): `47 passed, 5 deselected, 2 warnings in 248.53s` (0 failed, 0 skipped).
+  - Removed all leftover `[UPDATE if you deploy]` and `[FILL]` notes from `README.md`, `docs/COST_STATEMENT.md`, and `docs/TEST_EVIDENCE.md`.
+  - Only `[DEMO_URL]` left for later.
+
 

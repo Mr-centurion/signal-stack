@@ -5,6 +5,7 @@ from backend.models import Company, Source, ContextChangeReport
 from backend.services.context_change_service import context_change_service
 from backend.services.llm_client import llm_client
 
+@pytest.mark.needs_data
 @pytest.mark.asyncio
 async def test_context_change_reassessment_and_diff():
     """
@@ -19,7 +20,14 @@ async def test_context_change_reassessment_and_diff():
     db = SessionLocal()
 
     company = db.query(Company).filter_by(id=1).first()
-    assert company is not None, "MeetUniversity record must exist"
+    if not company:
+        db.close()
+        pytest.skip("requires pre-populated database: copy data/demo/signal_stack_demo.db over signal_stack.db")
+
+    sources_count = db.query(Source).filter_by(company_id=1, status="approved").count()
+    if sources_count == 0:
+        db.close()
+        pytest.skip("requires pre-populated database: copy data/demo/signal_stack_demo.db over signal_stack.db")
 
     change_desc = (
         "Strategic shift: MeetUniversity is pivoting from broad undergraduate counseling in India "

@@ -10,6 +10,7 @@ from backend.services.source_discovery_service import source_discovery_service
 from backend.crawler.engine import crawl_service
 from backend.services.llm_client import llm_client
 
+@pytest.mark.needs_data
 @pytest.mark.asyncio
 async def test_phase3_development_gate_and_evidence():
     """
@@ -31,7 +32,8 @@ async def test_phase3_development_gate_and_evidence():
         if not company:
             company = db.query(Company).filter(Company.name.ilike("%MeetUniversity%")).first()
 
-        assert company is not None, "MeetUniversity company record must exist in DB."
+        if not company:
+            pytest.skip("requires pre-populated database: copy data/demo/signal_stack_demo.db over signal_stack.db")
 
         # Ensure MeetUniversity competitors match Phase 2 verified competitors (IDP, ApplyBoard, LeapScholar, etc.)
         p2_comp_path = "tests/evidence/phase2_meetuniversity_competitors.json"

@@ -7,7 +7,7 @@ from sqlalchemy.pool import StaticPool
 from fastapi.testclient import TestClient
 
 from backend.models import Base
-from backend.database import get_db
+from backend.database import get_db, engine as disk_engine, Base as DiskBase, SessionLocal
 from backend.main import app
 from backend.services.llm_client import llm_client
 
@@ -19,6 +19,11 @@ engine = create_engine(
     poolclass=StaticPool
 )
 TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+
+@pytest.fixture(scope="session", autouse=True)
+def ensure_disk_db_schema():
+    """Ensures tables exist on disk SQLite database for tests using SessionLocal."""
+    DiskBase.metadata.create_all(bind=disk_engine)
 
 @pytest.fixture(scope="function")
 def db_session():

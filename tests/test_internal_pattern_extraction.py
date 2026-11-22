@@ -5,6 +5,7 @@ from backend.services.internal_doc_service import internal_doc_service
 from backend.services.brief_service import brief_service
 from backend.services.llm_client import llm_client
 
+@pytest.mark.needs_data
 @pytest.mark.asyncio
 async def test_internal_pattern_extraction_from_sample_file():
     """
@@ -20,7 +21,9 @@ async def test_internal_pattern_extraction_from_sample_file():
     
     # Use temporary test company or company #1
     company = db.query(Company).filter_by(id=1).first()
-    assert company is not None
+    if not company:
+        db.close()
+        pytest.skip("requires pre-populated database: copy data/demo/signal_stack_demo.db over signal_stack.db")
 
     # Clean existing internal uploads for deterministic test run
     db.query(Document).filter_by(

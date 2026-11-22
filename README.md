@@ -6,7 +6,7 @@ Signal Stack turns a company name and website into a continuously monitored inte
 
 **Design rule:** nothing is hard-coded per company or industry. Competitors, sources, interview questions and briefs are all generated per company, and every reported development carries a source link, a discovery date and a verbatim snippet. If nothing happened in a category, the brief says so.
 
-- Live URL: not deployed. This is a documented local setup, which the assignment allows. `[UPDATE if you deploy]`
+- Live URL: not deployed. This is a documented local setup, which the assignment allows.
 - Repository: https://github.com/Mr-centurion/signal-stack
 - Demo video: `[DEMO_URL]`
 
@@ -57,6 +57,8 @@ streamlit run frontend/app.py
 - API docs: http://localhost:8000/docs
 
 The SQLite database (`signal_stack.db`) is created on first start. No other services are needed.
+
+To explore pre-built data, stop the app, copy data/demo/signal_stack_demo.db over signal_stack.db, then start.
 
 ### Environment variables
 
@@ -128,6 +130,9 @@ pytest -m live              # live-site and live-LLM tests (need keys and networ
 ```
 
 Live tests depend on third-party sites that may return 403/404 or block robots, so they are marked tolerant. The offline suite covers scoring caps, date provenance, event taxonomy, claim and citation validators, profile integrity, competitor integrity, scheduler behaviour (including forced failure and restart persistence), the monthly audit, and stored-source counts.
+
+- **Clean clone (empty DB):** `40 passed, 7 skipped, 5 deselected, 2 warnings in 29.20s` (tests requiring pre-populated data auto-skip with `needs_data`).
+- **With demonstration DB (`data/demo/signal_stack_demo.db`):** `47 passed, 5 deselected, 2 warnings in 248.53s` (0 failed, 0 skipped).
 
 ## Known limitations
 

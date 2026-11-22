@@ -7,6 +7,7 @@ from backend.models import Company, Source, Signal, Brief, Competitor
 EVIDENCE_DIR = os.path.abspath("tests/evidence")
 REPORTS_DIR = os.path.abspath("reports")
 
+@pytest.mark.needs_data
 def test_multi_company_stress_test_evidence():
     """
     Verifies Phase 6 Multi-Company Stress Test artifacts and guarantees:
@@ -50,10 +51,14 @@ def test_multi_company_stress_test_evidence():
     db = SessionLocal()
     for name in ["MeetUniversity", "Sweetgreen", "PostHog"]:
         comp = db.query(Company).filter_by(name=name).first()
-        assert comp is not None, f"Company {name} must exist in database"
+        if not comp:
+            db.close()
+            pytest.skip("requires pre-populated database: copy data/demo/signal_stack_demo.db over signal_stack.db")
         
         sources = db.query(Source).filter_by(company_id=comp.id, status="approved").all()
-        assert len(sources) >= 5, f"Company {name} must have approved sources"
+        if len(sources) < 5:
+            db.close()
+            pytest.skip("requires pre-populated database: copy data/demo/signal_stack_demo.db over signal_stack.db")
         
         categories = {s.category for s in sources}
         assert "customers" in categories

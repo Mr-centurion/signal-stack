@@ -1,12 +1,13 @@
 # Test Evidence Index
 
-Maps each assignment requirement to the file or screenshot that demonstrates it. Counts change with every crawl, so the dashboard is the source of truth; the numbers below are from the last recorded runs and should be refreshed before submission. `[FILL]` marks values to confirm.
+Maps each assignment requirement to the file or screenshot that demonstrates it. Counts change with every crawl, so the dashboard is the source of truth; the numbers below are from the recorded demonstration runs.
 
 ## Test results
 
 | Suite | Command | Result at last run |
 |---|---|---|
-| Offline | `pytest -m "not live"` | `3 failed, 44 passed, 5 deselected, 2 warnings in 83.83s` |
+| Offline (clean clone) | `pytest -m "not live"` | `40 passed, 7 skipped, 5 deselected, 2 warnings in 29.20s` (tests requiring pre-populated database auto-skip with `needs_data`) |
+| Offline (with demo DB) | `pytest -m "not live"` | `47 passed, 5 deselected, 2 warnings in 248.53s` (0 failed, 0 skipped) |
 | Live (network and LLM) | `pytest -m live` | Depends on third-party sites; failures from HTTP 403/404 or robots blocks are marked tolerant (`xfail`) and listed in the README |
 
 ## Requirement to evidence
